@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -empty -ls | cut -c 1-74 --complement
+find ./ -empty -ls | cut -d: -f2
