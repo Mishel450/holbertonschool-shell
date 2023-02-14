@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'hello' | whoiam | paste -s -d " "
+echo 'hello' | whoami | paste -s -d " "
