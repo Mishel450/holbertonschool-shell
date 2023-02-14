@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1aRSX | find *.gif -printf '%f\n'
+ls . -1aRSX | find -name *.gif -printf '%f\n'
