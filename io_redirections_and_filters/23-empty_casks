@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -empty -ls | cut -s
+find ./ -empty -ls | cut -z
